@@ -9,12 +9,12 @@ class bill:
             print("address: ",self.y)
             self.z=self.x*12
             print("amount=",self.z)
-        elif 0<=self.x<=200:
-            print("address: ",self.y)
+        elif 0<=self.x<=270:
+            print("addred: ",self.y)
             self.z=(self.x-100)*17+100*12
-            print("amount=",self.z)
+            print("amourt=",self.z)
         else:
-            print("address: ",self.y)
+            print("addrds: ",self.y)
             self.z=(self.x-200)*25+100*17+100*12
             print("amount=",self.z)
 
