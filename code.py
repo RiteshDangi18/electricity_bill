@@ -1,7 +1,7 @@
 #write a function to calculate the amount of electricity bill
 class bill:
     def __init__(self,x,y,z):
-        self.x=x
+        self.x=u
         self.y=y
         self.z=z
     def amount(self):
